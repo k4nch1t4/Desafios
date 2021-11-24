@@ -1,0 +1,98 @@
+
+
+/* Header */
+
+
+
+
+.contenedor{
+    background-color: rgb(133, 125, 53);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}    
+
+.contenedor__logo{
+    height: 200px;
+    width: 200px;
+    border: solid 5px rgb(255, 38, 0);
+    border-radius: 15%; 
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 100%;
+}
+
+ 
+nav ul li{
+    display: inline;
+    justify-content: space-evenly;
+}
+
+a{
+    color: aliceblue;
+    font-size: 22px;
+}
+
+
+.contenedor__menu{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    overflow: scroll;
+}
+
+.contenedor__menu--lista{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border: solid 2px white;
+}
+
+/* Header */
+
+/* Body */
+
+.cubo{
+    background-color: bisque;
+    /* width: 800px;
+    height: 600px; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.cubo_fotos{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    padding: 15px 15px;
+    border: dotted 5px white;
+    border-radius: 20px;
+    margin: 100px 0px;
+}
+
+/* Body */
+
+/* Footer */
+
+.Footer{
+    display: flex;
+    background-color: rgb(0, 8, 8);
+    justify-content: center;
+}
+
+
+h1{
+    color: azure;
+}
+
+/* Footer */
+
+p{
+    color: azure;
+}
